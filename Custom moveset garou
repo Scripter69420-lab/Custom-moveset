@@ -13,7 +13,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Shoot Up This Mofo"
+ToolName.Text = "Air hump"
  
  
 local player = game.Players.LocalPlayer
@@ -31,7 +31,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Hospital Express"
+ToolName.Text = "infinite licks"
  
  
 local player = game.Players.LocalPlayer
@@ -49,7 +49,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "Prision Visitor"
+ToolName.Text = "Diddies brother"
  
  
 local player = game.Players.LocalPlayer
@@ -67,7 +67,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
  
  
-ToolName.Text = "School Shooter"
+ToolName.Text = "diddies sniff"
  
  
 local Players = game:GetService("Players")
@@ -110,7 +110,7 @@ findGuiAndSetText()
  
 --[[Move 1]]
  
-local animationId = 10468665991
+local animationId = 77269554475723
  
  
 local player = game.Players.LocalPlayer
@@ -168,7 +168,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
-local animationId = 10466974800
+local animationId = 130326748339618
  
  
 local player = game.Players.LocalPlayer
@@ -221,7 +221,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
-local animationId = 10471336737
+local animationId = 77308304977205
  
  
 local player = game.Players.LocalPlayer
@@ -233,7 +233,7 @@ local humanoid = character:WaitForChild("Humanoid")
  
 local function onAnimationPlayed(animationTrack)
  
-    if animationTrack.Animation.AnimationId == "rbxassetid:506001681//" .. animationId then
+    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationId then
  
  
 local p = game.Players.LocalPlayer
@@ -286,7 +286,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
-local animationId = 12510170988
+local animationId = 122679951149650
  
  
 local player = game.Players.LocalPlayer
@@ -341,7 +341,7 @@ end
  
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
-local animationId = 15955393872
+local animationId = 77056877849230
  
  
 local player = game.Players.LocalPlayer
@@ -397,7 +397,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
  
  
-local animationId = 12447707844
+local animationId = 104347579713849
  
  
 local player = game.Players.LocalPlayer
@@ -638,13 +638,13 @@ local humanoid = character:WaitForChild("Humanoid")
  
 local animationIdsToStop = {
  
-    [17859015788] = true, --downslam finisher
+    [72426404853244] = true, --downslam finisher
  
-    [10469493270] = true, --punch1
+    [104189343098901] = true, --punch1
  
-    [10469630950] = true, --punch2
+    [72426404853244] = true, --punch2
  
-    [10469639222] = true, --punch3
+    [139120251598539] = true, --punch3
  
     [10469643643] = true, --punch4
  
